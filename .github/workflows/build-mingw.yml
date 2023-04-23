@@ -14,7 +14,7 @@ jobs:
       libraryName: entt
       cmakeInstallationPath: entt-installation
       tagName: v3.10.3
-      mingwTargetZip: entt-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
+      mingwTargetZip: entt-${{ github.ref_name }}-winlibs-x86_64-posix-seh-gcc-12.2.0-mingw-w64ucrt-10.0.0-r4.zip
     steps:
       - name: git clone
         shell: cmd
