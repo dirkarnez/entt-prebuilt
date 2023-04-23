@@ -13,7 +13,7 @@ jobs:
     env:
       libraryName: entt
       cmakeInstallationPath: entt-installation
-      tagName: v3.11.1
+      tagName: v3.10.3
       mingwTargetZip: entt-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
       - name: git clone
